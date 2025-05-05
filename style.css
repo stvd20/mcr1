@@ -1,1 +1,119 @@
 
+/* 🌐 إعدادات عامة */
+body {
+  font-family: 'Tahoma', sans-serif;
+  direction: rtl;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 📦 الجداول */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* ✅ البادجات */
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+.badge.green { background-color: #2ecc71; }
+.badge.red { background-color: #e74c3c; }
+.badge.yellow { background-color: #f1c40f; color: #000; }
+.badge.blue { background-color: #3498db; }
+
+/* 🔘 الأزرار */
+button {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1f6391;
+}
+
+/* 📝 الحقول */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html">🏠 الرئيسية</a></li>
+    <li><a href="create.html">➕ إنشاء إحالة</a></li>
+    <li><a href="incoming.html">📥 الإحالات الواردة</a></li>
+    <li><a href="reply.html">🩺 رد الطبيب</a></li>
+    <li><a href="reports.html">📊 التقارير</a></li>
+    <li><a href="settings.html">⚙️ الإعدادات</a></li>
+  </ul>
+</nav>
+/* 🚀 شريط التنقل */
+.navbar {
+  background-color: #34495e;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #1abc9c;
+}
